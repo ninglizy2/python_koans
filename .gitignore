@@ -6,4 +6,5 @@ answers
 .idea
 *.sln
 *.pyproj
+*.suo
 .suo
