@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{a7f1895b-0d93-477b-9873-30b54c202be8}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>python3\contemplate_koans.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>python3</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Contributor Notes.txt" />
+    <Content Include="python2\example_file.txt" />
+    <Content Include="python2\koans.txt" />
+    <Content Include="python2\koans\GREEDS_RULES.txt" />
+    <Content Include="python3\example_file.txt" />
+    <Content Include="python3\koans.txt" />
+    <Content Include="python3\koans\GREEDS_RULES.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="python2\contemplate_koans.py" />
+    <Compile Include="python2\koans\about_asserts.py" />
+    <Compile Include="python2\koans\about_attribute_access.py" />
+    <Compile Include="python2\koans\about_classes.py" />
+    <Compile Include="python2\koans\about_class_attributes.py" />
+    <Compile Include="python2\koans\about_comprehension.py" />
+    <Compile Include="python2\koans\about_control_statements.py" />
+    <Compile Include="python2\koans\about_decorating_with_classes.py" />
+    <Compile Include="python2\koans\about_decorating_with_functions.py" />
+    <Compile Include="python2\koans\about_deleting_objects.py" />
+    <Compile Include="python2\koans\about_dice_project.py" />
+    <Compile Include="python2\koans\about_dictionaries.py" />
+    <Compile Include="python2\koans\about_exceptions.py" />
+    <Compile Include="python2\koans\about_extra_credit.py" />
+    <Compile Include="python2\koans\about_generators.py" />
+    <Compile Include="python2\koans\about_inheritance.py" />
+    <Compile Include="python2\koans\about_iteration.py" />
+    <Compile Include="python2\koans\about_lambdas.py" />
+    <Compile Include="python2\koans\about_lists.py" />
+    <Compile Include="python2\koans\about_list_assignments.py" />
+    <Compile Include="python2\koans\about_methods.py" />
+    <Compile Include="python2\koans\about_method_bindings.py" />
+    <Compile Include="python2\koans\about_modules.py" />
+    <Compile Include="python2\koans\about_monkey_patching.py" />
+    <Compile Include="python2\koans\about_multiple_inheritance.py" />
+    <Compile Include="python2\koans\about_new_style_classes.py" />
+    <Compile Include="python2\koans\about_none.py" />
+    <Compile Include="python2\koans\about_packages.py" />
+    <Compile Include="python2\koans\about_proxy_object_project.py" />
+    <Compile Include="python2\koans\about_regex.py" />
+    <Compile Include="python2\koans\about_scope.py" />
+    <Compile Include="python2\koans\about_scoring_project.py" />
+    <Compile Include="python2\koans\about_sets.py" />
+    <Compile Include="python2\koans\about_strings.py" />
+    <Compile Include="python2\koans\about_string_manipulation.py" />
+    <Compile Include="python2\koans\about_triangle_project.py" />
+    <Compile Include="python2\koans\about_triangle_project2.py" />
+    <Compile Include="python2\koans\about_true_and_false.py" />
+    <Compile Include="python2\koans\about_tuples.py" />
+    <Compile Include="python2\koans\about_with_statements.py" />
+    <Compile Include="python2\koans\another_local_module.py" />
+    <Compile Include="python2\koans\a_normal_folder\a_module.py" />
+    <Compile Include="python2\koans\a_package_folder\a_module.py" />
+    <Compile Include="python2\koans\a_package_folder\__init__.py" />
+    <Compile Include="python2\koans\jims.py" />
+    <Compile Include="python2\koans\joes.py" />
+    <Compile Include="python2\koans\local_module.py" />
+    <Compile Include="python2\koans\local_module_with_all_defined.py" />
+    <Compile Include="python2\koans\triangle.py" />
+    <Compile Include="python2\koans\__init__.py" />
+    <Compile Include="python2\libs\colorama\ansi.py" />
+    <Compile Include="python2\libs\colorama\ansitowin32.py" />
+    <Compile Include="python2\libs\colorama\initialise.py" />
+    <Compile Include="python2\libs\colorama\win32.py" />
+    <Compile Include="python2\libs\colorama\winterm.py" />
+    <Compile Include="python2\libs\colorama\__init__.py" />
+    <Compile Include="python2\libs\mock.py" />
+    <Compile Include="python2\libs\__init__.py" />
+    <Compile Include="python2\runner\helper.py" />
+    <Compile Include="python2\runner\koan.py" />
+    <Compile Include="python2\runner\mockable_test_result.py" />
+    <Compile Include="python2\runner\mountain.py" />
+    <Compile Include="python2\runner\path_to_enlightenment.py" />
+    <Compile Include="python2\runner\runner_tests\test_helper.py" />
+    <Compile Include="python2\runner\runner_tests\test_mountain.py" />
+    <Compile Include="python2\runner\runner_tests\test_path_to_enlightenment.py" />
+    <Compile Include="python2\runner\runner_tests\test_sensei.py" />
+    <Compile Include="python2\runner\runner_tests\__init__.py" />
+    <Compile Include="python2\runner\sensei.py" />
+    <Compile Include="python2\runner\writeln_decorator.py" />
+    <Compile Include="python2\runner\__init__.py" />
+    <Compile Include="python2\scent.py" />
+    <Compile Include="python2\_runner_tests.py" />
+    <Compile Include="python3\contemplate_koans.py" />
+    <Compile Include="python3\koans\about_asserts.py" />
+    <Compile Include="python3\koans\about_attribute_access.py" />
+    <Compile Include="python3\koans\about_classes.py" />
+    <Compile Include="python3\koans\about_class_attributes.py" />
+    <Compile Include="python3\koans\about_comprehension.py" />
+    <Compile Include="python3\koans\about_control_statements.py" />
+    <Compile Include="python3\koans\about_decorating_with_classes.py" />
+    <Compile Include="python3\koans\about_decorating_with_functions.py" />
+    <Compile Include="python3\koans\about_deleting_objects.py" />
+    <Compile Include="python3\koans\about_dice_project.py" />
+    <Compile Include="python3\koans\about_dictionaries.py" />
+    <Compile Include="python3\koans\about_exceptions.py" />
+    <Compile Include="python3\koans\about_extra_credit.py" />
+    <Compile Include="python3\koans\about_generators.py" />
+    <Compile Include="python3\koans\about_inheritance.py" />
+    <Compile Include="python3\koans\about_iteration.py" />
+    <Compile Include="python3\koans\about_lambdas.py" />
+    <Compile Include="python3\koans\about_lists.py" />
+    <Compile Include="python3\koans\about_list_assignments.py" />
+    <Compile Include="python3\koans\about_methods.py" />
+    <Compile Include="python3\koans\about_method_bindings.py" />
+    <Compile Include="python3\koans\about_modules.py" />
+    <Compile Include="python3\koans\about_monkey_patching.py" />
+    <Compile Include="python3\koans\about_multiple_inheritance.py" />
+    <Compile Include="python3\koans\about_none.py" />
+    <Compile Include="python3\koans\about_packages.py" />
+    <Compile Include="python3\koans\about_proxy_object_project.py" />
+    <Compile Include="python3\koans\about_regex.py" />
+    <Compile Include="python3\koans\about_scope.py" />
+    <Compile Include="python3\koans\about_scoring_project.py" />
+    <Compile Include="python3\koans\about_sets.py" />
+    <Compile Include="python3\koans\about_strings.py" />
+    <Compile Include="python3\koans\about_string_manipulation.py" />
+    <Compile Include="python3\koans\about_triangle_project.py" />
+    <Compile Include="python3\koans\about_triangle_project2.py" />
+    <Compile Include="python3\koans\about_true_and_false.py" />
+    <Compile Include="python3\koans\about_tuples.py" />
+    <Compile Include="python3\koans\about_with_statements.py" />
+    <Compile Include="python3\koans\another_local_module.py" />
+    <Compile Include="python3\koans\a_package_folder\a_module.py" />
+    <Compile Include="python3\koans\a_package_folder\__init__.py" />
+    <Compile Include="python3\koans\jims.py" />
+    <Compile Include="python3\koans\joes.py" />
+    <Compile Include="python3\koans\local_module.py" />
+    <Compile Include="python3\koans\local_module_with_all_defined.py" />
+    <Compile Include="python3\koans\triangle.py" />
+    <Compile Include="python3\koans\__init__.py" />
+    <Compile Include="python3\libs\colorama\ansi.py" />
+    <Compile Include="python3\libs\colorama\ansitowin32.py" />
+    <Compile Include="python3\libs\colorama\initialise.py" />
+    <Compile Include="python3\libs\colorama\win32.py" />
+    <Compile Include="python3\libs\colorama\winterm.py" />
+    <Compile Include="python3\libs\colorama\__init__.py" />
+    <Compile Include="python3\libs\mock.py" />
+    <Compile Include="python3\libs\__init__.py" />
+    <Compile Include="python3\runner\helper.py" />
+    <Compile Include="python3\runner\koan.py" />
+    <Compile Include="python3\runner\mockable_test_result.py" />
+    <Compile Include="python3\runner\mountain.py" />
+    <Compile Include="python3\runner\path_to_enlightenment.py" />
+    <Compile Include="python3\runner\runner_tests\test_helper.py" />
+    <Compile Include="python3\runner\runner_tests\test_mountain.py" />
+    <Compile Include="python3\runner\runner_tests\test_path_to_enlightenment.py" />
+    <Compile Include="python3\runner\runner_tests\test_sensei.py" />
+    <Compile Include="python3\runner\runner_tests\__init__.py" />
+    <Compile Include="python3\runner\sensei.py" />
+    <Compile Include="python3\runner\writeln_decorator.py" />
+    <Compile Include="python3\runner\__init__.py" />
+    <Compile Include="python3\scent.py" />
+    <Compile Include="python3\_runner_tests.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="python2" />
+    <Folder Include="python2\koans" />
+    <Folder Include="python2\koans\a_normal_folder" />
+    <Folder Include="python2\koans\a_package_folder" />
+    <Folder Include="python2\libs" />
+    <Folder Include="python2\libs\colorama" />
+    <Folder Include="python2\runner" />
+    <Folder Include="python2\runner\runner_tests" />
+    <Folder Include="python3" />
+    <Folder Include="python3\koans" />
+    <Folder Include="python3\koans\a_package_folder" />
+    <Folder Include="python3\libs" />
+    <Folder Include="python3\libs\colorama" />
+    <Folder Include="python3\runner" />
+    <Folder Include="python3\runner\runner_tests" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
